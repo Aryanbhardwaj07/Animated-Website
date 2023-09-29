@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+*::selection{
+    color: #fff;
+    background-color: black;
+}
 html,body{
     height: 100%;
     width: 100%;
