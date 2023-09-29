@@ -58,7 +58,7 @@ html,body{
     position:relative ;
     display: flex;
     align-items: center;
-    padding: 3vw 1 vw;
+    padding: 3vw 1vw;
     justify-content: space-between;
 }
 #page2 .elem{
