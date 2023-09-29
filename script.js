@@ -15,8 +15,8 @@ videocon.addEventListener("mouseleave",function(){
 })
 videocon.addEventListener("mousemove",function(dets){
     gsap.to(playbtn,{
-        left:dets.x-25,
-        top:dets.y-25
+        left:dets.x-30,
+        top:dets.y-50
     } )
 })
 }
@@ -28,6 +28,12 @@ function loadingAnimation(){
         delay:0.5,
         duration :0.9,
         stagger:0.2
+    })
+    gsap.from("#page1 #video-container",{
+        scale:0.9,
+        opacity:0,
+        delay:1.3,
+        duration :0.4,
     })
 }
 loadingAnimation();
