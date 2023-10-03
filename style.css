@@ -66,6 +66,10 @@ html,body{
     width: 31%;
     /*background-color: red;*/
     overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #page2 .elem img{
     height: 100%;
@@ -73,11 +77,25 @@ html,body{
     object-fit: cover;
     scale: 1.2;
 }
+#page2 .elem .dets{
+height: 50px;
+border-radius: 55px;
+width: 80%;
+position: absolute;
+background-color: palegoldenrod;
+z-index: 9;
+
+}
+#page2 .elem .dets:hover{
+    height: 80px;
+
+}
 #page3{
     height: 100vh;
     width: 100%;
     background-color: aliceblue;
 }
+
 
 @media(max-width:600px){
 
@@ -112,7 +130,7 @@ html,body{
         transform: translate(-50%,-50%);
     }
     #page2{
-        height: 100vh;
+        min-height: 100vh;
         width: 100%;
         position:relative ;
         display: flex;
@@ -120,6 +138,13 @@ html,body{
         padding: 5vw 3vw;
         flex-direction: column;
         justify-content: space-between;
+    }
+    #page2 .elem{
+        height: 100vh;
+        width: 100%;
+        /*background-color: red;*/
+        overflow: hidden;
+        margin-bottom: 3vw;
     }
     
 }
