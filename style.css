@@ -15,12 +15,12 @@ body{
     background-color: #F7F7F7;
 }
 #cursor{
-    height: 150px;
-    width: 150px;
+    height: 210px;
+    width: 220px;
     background-color: blanchedalmond;
     border-radius: 50%;
     position: fixed;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) scale(0);
 }
 #page1{
     min-height: 100vh;
@@ -88,18 +88,40 @@ body{
     object-fit: cover;
     scale: 1.2;
 }
-#page2 .elem .dets{
+#page2 #elem1 .dets{
 height: 50px;
 border-radius: 55px;
 width: 80%;
 position: absolute;
 background-color: palegoldenrod;
 z-index: 9;
-opacity: 0.4;
+}
+#page2 #elem2 .dets{
+height: 50px;
+border-radius: 55px;
+width: 80%;
+position: absolute;
+background-color: palevioletred;
+z-index: 9;
+}
+#page2 #elem3 .dets{
+height: 50px;
+border-radius: 55px;
+width: 80%;
+position: absolute;
+background-color: lavender;
+z-index: 9;
+}
+#page2 #elem1 .dets:hover{
+    height: 180px;
 
 }
-#page2 .elem .dets:hover{
-    height: 80px;
+#page2 #elem2 .dets:hover{
+    height: 180px;
+
+}
+#page2 #elem3 .dets:hover{
+    height: 180px;
 
 }
 #page3{
