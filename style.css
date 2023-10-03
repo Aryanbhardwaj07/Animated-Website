@@ -14,6 +14,15 @@ html,body{
 body{
     background-color: #F7F7F7;
 }
+#nav{
+    padding-top: 8px;
+    padding-left: 8px;
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    position: fixed;
+    z-index: 9;
+}
 #cursor{
     height: 210px;
     width: 220px;
