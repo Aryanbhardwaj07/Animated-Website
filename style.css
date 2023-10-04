@@ -28,11 +28,13 @@ body{
 #nav-part1{
     /* background-color: red; */
     height: 86px;
+    overflow: hidden;
 }
 #nav-part1 svg{
+    margin-top: 2px;
     margin-left: 12px;
     display: block;
-    overflow: hidden;
+    
 }
 
 #nav #nav-part2{
@@ -201,7 +203,17 @@ z-index: 9;
 height: 100%;
 
 }
-
+#foot{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media(max-width:600px){
 
     #page1{
