@@ -105,16 +105,19 @@ gsap.to("#cursor",{
 // // }
 // // cursorInAndOut();
 
-
+function cursorInAndOut(){
+    
 document.querySelectorAll(".child").forEach(function(elem){
-elem.addEventListener("mouseenter",function(){
-    gsap.to("#cursor",{
-        transform: "translate(-50%,-50%) scale(1)",
+    elem.addEventListener("mouseenter",function(){
+        gsap.to("#cursor",{
+            transform: "translate(-50%,-50%) scale(1)",
+        });
     });
-});
-elem.addEventListener("mouseleave",function(){
-    gsap.to("#cursor",{
-        transform: "translate(-50%,-50%) scale(0)",
+    elem.addEventListener("mouseleave",function(){
+        gsap.to("#cursor",{
+            transform: "translate(-50%,-50%) scale(0)",
+        });
     });
-});
-});
+    });
+}
+cursorInAndOut();

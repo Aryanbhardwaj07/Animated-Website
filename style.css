@@ -32,11 +32,14 @@ body{
 #nav-part1 svg{
     margin-left: 12px;
     display: block;
+    overflow: hidden;
 }
 #nav-part1 img{
-   padding-bottom: 5px;
-    display: block;
+    overflow: hidden;
+    padding-bottom: 5px;
     height: 100%;
+    transform: scale(0);
+    
 }
 #nav #nav-part2{
     display: flex;
