@@ -17,11 +17,49 @@ body{
 #nav{
     padding-top: 8px;
     padding-left: 8px;
-    height: 100px;
+    /* height: 100px; */
     width: 100%;
-    background-color: burlywood;
     position: fixed;
-    z-index: 9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 99;
+}
+#nav #nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#links{
+    padding: 10px;
+   
+}
+#nav #nav-part2 #links a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 20px;
+}
+#icons{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #F7F7F7;
+    margin: 0 20px;
+}
+#nav #nav-part2 #icons i{
+    font-size: 20px;
+    margin-right: 50px;
+    font-weight: 100px;
+
+}
+#nav #nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 #cursor{
     height: 210px;
