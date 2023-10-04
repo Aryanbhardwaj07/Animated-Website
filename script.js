@@ -34,6 +34,31 @@ ScrollTrigger.refresh();
 
 }
 scrollTriggerLoco()
+
+function upScrollSvg(){
+    gsap.to("#nav-part1 svg",{
+        transform:"translateY(-110%)",
+        scrollTrigger:{
+            trigger:"#page1",
+            scroller:"#main",
+            start:"top 0",
+            end: "top -5%",
+            scrub:true
+        }
+    })
+    gsap.to("#nav-part2 #links",{
+        transform:"translateY(-110%)",
+        opacity:"0",
+        scrollTrigger:{
+            trigger:"#page1",
+            scroller:"#main",
+            start:"top 0",
+            end: "top -5%",
+            scrub:true
+        }
+    })
+}
+upScrollSvg()
 function videoconAnimation(){
     var videocon = document.querySelector("#video-container")
 var playbtn= document.querySelector("#play")
