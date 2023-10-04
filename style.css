@@ -34,13 +34,7 @@ body{
     display: block;
     overflow: hidden;
 }
-#nav-part1 img{
-    overflow: hidden;
-    padding-bottom: 5px;
-    height: 100%;
-    transform: scale(0);
-    
-}
+
 #nav #nav-part2{
     display: flex;
     align-items: center;
