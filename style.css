@@ -25,6 +25,19 @@ body{
     justify-content: space-between;
     z-index: 99;
 }
+#nav-part1{
+    /* background-color: red; */
+    height: 86px;
+}
+#nav-part1 svg{
+    margin-left: 12px;
+    display: block;
+}
+#nav-part1 img{
+   padding-bottom: 5px;
+    display: block;
+    height: 100%;
+}
 #nav #nav-part2{
     display: flex;
     align-items: center;
@@ -74,7 +87,7 @@ body{
     position: relative;
     width: 100% ;
     padding: 0 1vw;   
-    padding-top: 25vh;
+    padding-top: 30vh;
 }
 #page1 h1{
     font-size: 12vw;
@@ -237,7 +250,6 @@ height: 100%;
     #page2 .elem{
         height: 100vh;
         width: 100%;
-        /*background-color: red;*/
         overflow: hidden;
         margin-bottom: 3vw;
     }
