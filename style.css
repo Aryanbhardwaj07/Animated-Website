@@ -283,25 +283,6 @@ height: 100%;
     height: 100%;
     
     }
-    #page3{
-        min-height: 120vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-    .child{
-        height: 55vh;
-        width: 40vw;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .child img{
-    height: 100%;
     
-    }
     
 }
