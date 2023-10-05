@@ -228,10 +228,11 @@ height: 100%;
         margin-left: 12px;
       }
       #nav #nav-part2{
+        width: 81%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
+        
+        
+        
     }
     #nav #nav-part2 #links a{
         text-transform: uppercase;
@@ -242,7 +243,12 @@ height: 100%;
         padding: auto;
         margin-left: 12px; 
     }
-    
+    #icons{
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #F7F7F7;
+        margin: 0px 60px;
+    }
     #page1{
         min-height: 70vh;
         width: 100% ;
