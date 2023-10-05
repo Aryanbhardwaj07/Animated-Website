@@ -221,7 +221,21 @@ height: 100%;
         margin-right: 12px;
         display: block;
         
+        #links{
+          padding: 0px;
+           
+        }
     }
+    #nav #nav-part2 #links a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        font-size: 14px;
+        padding: auto;
+        margin-left: 10px; 
+    }
+    
     #page1{
         min-height: 70vh;
         width: 100% ;
