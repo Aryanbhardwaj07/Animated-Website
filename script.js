@@ -34,7 +34,29 @@ ScrollTrigger.refresh();
 
 }
 scrollTriggerLoco()
+function dropDown(){
+    var drop=document.querySelector(".dets")
 
+    drop.addEventListener("mouseenter", function(){
+        gsap.to(drop,{
+            height:"180px",
+            scrub:true,
+            opacity:"0.4"
+
+        })
+    })
+    drop.addEventListener("mouseleave", function(){
+        gsap.to(drop,{
+            height:"50px",
+            scrub:true,
+            opacity:"1"
+
+        })
+    })
+
+   
+}
+dropDown()
 function upScrollSvg(){
     gsap.to("#nav-part1 svg",{
         transform:"translateY(-110%)",
