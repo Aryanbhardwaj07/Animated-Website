@@ -215,7 +215,13 @@ height: 100%;
     justify-content: center;
 }
 @media(max-width:600px){
-
+    #nav-part1 svg{
+        margin-top: 2px;
+        margin-left: 12px;
+        margin-right: 12px;
+        display: block;
+        
+    }
     #page1{
         min-height: 70vh;
         width: 100% ;
