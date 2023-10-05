@@ -228,8 +228,10 @@ height: 100%;
         margin-left: 12px;
       }
       #nav #nav-part2{
-        width: 85%;
+        width: 75%;
         display: flex;
+        justify-content: center;
+        align-items: center;
         
         
         
