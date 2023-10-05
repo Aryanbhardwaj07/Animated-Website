@@ -173,14 +173,17 @@ z-index: 9;
 }
 #page2 #elem1 .dets:hover{
     height: 180px;
+    opacity: 0.4;
 
 }
 #page2 #elem2 .dets:hover{
     height: 180px;
+    opacity: 0.4;
 
 }
 #page2 #elem3 .dets:hover{
     height: 180px;
+    opacity: 0.4;
 
 }
 #page3{
