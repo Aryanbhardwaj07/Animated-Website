@@ -221,11 +221,12 @@ height: 100%;
         margin-right: 12px;
         display: block;
         
-        #links{
-          padding: 0px;
-           
-        }
+        
     }
+    #links{
+        padding: 5px;
+        margin-left: 5px;
+      }
     #nav #nav-part2 #links a{
         text-transform: uppercase;
         text-decoration: none;
