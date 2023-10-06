@@ -35,7 +35,10 @@ ScrollTrigger.refresh();
 }
 scrollTriggerLoco()
 function dropDown(){
-    var drop=document.querySelector(".dets")
+    
+    var drop=document.querySelector("#elem1 .dets")
+    var drop1=document.querySelector("#elem2 .dets")
+    var drop2=document.querySelector("#elem3 .dets")
 
     drop.addEventListener("mouseenter", function(){
         gsap.to(drop,{
@@ -53,7 +56,38 @@ function dropDown(){
 
         })
     })
+    drop1.addEventListener("mouseenter", function(){
+        gsap.to(drop1,{
+            height:"180px",
+            scrub:true,
+            opacity:"0.4"
 
+        })
+    })
+    drop1.addEventListener("mouseleave", function(){
+        gsap.to(drop1,{
+            height:"50px",
+            scrub:true,
+            opacity:"1"
+
+        })
+    })
+    drop2.addEventListener("mouseenter", function(){
+        gsap.to(drop2,{
+            height:"180px",
+            scrub:true,
+            opacity:"0.4"
+
+        })
+    })
+    drop2.addEventListener("mouseleave", function(){
+        gsap.to(drop2,{
+            height:"50px",
+            scrub:true,
+            opacity:"1"
+
+        })
+    })
    
 }
 dropDown()
