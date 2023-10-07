@@ -227,11 +227,11 @@ height: 100%;
         
     }
     #links{
-        padding: 5px;
-        margin-left: 12px;
+        padding: 2px;
+        margin-left: 2px;
       }
       #nav #nav-part2{
-        width: 60%;
+        width: 65%;
         display: flex;
         justify-content: center;
         align-items: center;
