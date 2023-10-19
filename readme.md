@@ -12,6 +12,8 @@ To view the website, simply open the index.html file in a web browser.
 * CSS
 * JavaScript
 * GSAP
+* Locomotive(For Smooth Scrolling)
+* Scroll Triggers
 
 ### Credits
 
