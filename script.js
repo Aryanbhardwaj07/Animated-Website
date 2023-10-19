@@ -44,7 +44,8 @@ function dropDown(){
         gsap.to(drop,{
             height:"180px",
             scrub:true,
-            opacity:"0.4"
+            opacity:"0.4",
+            innerHTML:"yo yo"
 
         })
     })
@@ -52,7 +53,9 @@ function dropDown(){
         gsap.to(drop,{
             height:"50px",
             scrub:true,
-            opacity:"1"
+            opacity:"1",
+            innerHTML:"serene"
+
 
         })
     })
@@ -68,7 +71,9 @@ function dropDown(){
         gsap.to(drop1,{
             height:"50px",
             scrub:true,
-            opacity:"1"
+            opacity:"1",
+            transformOrigin: "center center",
+        
 
         })
     })
