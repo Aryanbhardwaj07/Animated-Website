@@ -162,7 +162,7 @@ align-items: center;
 display: flex;
 height: 50px;
 border-radius: 55px;
-width: 80%;
+width: 100%;
 position: absolute;
 background-color: palegoldenrod;
 z-index: 9;

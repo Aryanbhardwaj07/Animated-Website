@@ -45,8 +45,21 @@ function dropDown(){
             height:"180px",
             scrub:true,
             opacity:"0.4",
-            innerHTML:"yo yo"
-
+            onComplete: function() {
+                // Create a new element for the text
+                const text = document.createElement("div");
+                text.innerHTML = "yo yo";
+                text.style.position = "absolute";
+                text.style.top = "50%";
+                text.style.left = "50%";
+                text.style.transform = "translate(-50%, -50%)";
+                text.style.textAlign = "center";
+    
+                // Append the text to the "drop" element
+                drop.innerHTML = ''; // Clear any previous content
+                drop.appendChild(text);
+            
+            }
         })
     })
     drop.addEventListener("mouseleave", function(){
@@ -54,8 +67,20 @@ function dropDown(){
             height:"50px",
             scrub:true,
             opacity:"1",
-            innerHTML:"serene"
-
+            onComplete: function() {
+                // Create a new element for the text
+                const text = document.createElement("div");
+                text.innerHTML = "Serene";
+                text.style.position = "absolute";
+                text.style.top = "50%";
+                text.style.left = "50%";
+                text.style.transform = "translate(-50%, -50%)";
+                text.style.textAlign = "center";
+    
+                // Append the text to the "drop" element
+                drop.innerHTML = ''; // Clear any previous content
+                drop.appendChild(text);
+            }
 
         })
     })
