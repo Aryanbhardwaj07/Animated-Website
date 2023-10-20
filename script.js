@@ -69,7 +69,7 @@ function dropDown(){
             opacity:"1",
             onComplete: function() {
                 // Create a new element for the text
-                const text = document.createElement("div");
+                const text = document.createElement("#text2");
                 text.innerHTML = "Serene";
                 text.style.position = "absolute";
                 text.style.top = "50%";
@@ -88,7 +88,22 @@ function dropDown(){
         gsap.to(drop1,{
             height:"180px",
             scrub:true,
-            opacity:"0.4"
+            opacity:"0.4",
+            onComplete: function() {
+                // Create a new element for the text
+                const text = document.createElement("div");
+                text.innerHTML = "yo yo";
+                text.style.position = "absolute";
+                text.style.top = "50%";
+                text.style.left = "50%";
+                text.style.transform = "translate(-50%, -50%)";
+                text.style.textAlign = "center";
+    
+                // Append the text to the "drop" element
+                drop.innerHTML = ''; // Clear any previous content
+                drop.appendChild(text);
+            
+            }
 
         })
     })
@@ -97,7 +112,20 @@ function dropDown(){
             height:"50px",
             scrub:true,
             opacity:"1",
-            transformOrigin: "center center",
+            onComplete: function() {
+                // Create a new element for the text
+                const text = document.createElement("div");
+                text.innerHTML = "Serene";
+                text.style.position = "absolute";
+                text.style.top = "50%";
+                text.style.left = "50%";
+                text.style.transform = "translate(-50%, -50%)";
+                text.style.textAlign = "center";
+    
+                // Append the text to the "drop" element
+                drop.innerHTML = ''; // Clear any previous content
+                drop.appendChild(text);
+            }
         
 
         })
@@ -106,7 +134,22 @@ function dropDown(){
         gsap.to(drop2,{
             height:"180px",
             scrub:true,
-            opacity:"0.4"
+            opacity:"0.4",
+            onComplete: function() {
+                // Create a new element for the text
+                const text = document.createElement("div");
+                text.innerHTML = "yo yo";
+                text.style.position = "absolute";
+                text.style.top = "50%";
+                text.style.left = "50%";
+                text.style.transform = "translate(-50%, -50%)";
+                text.style.textAlign = "center";
+    
+                // Append the text to the "drop" element
+                drop.innerHTML = ''; // Clear any previous content
+                drop.appendChild(text);
+            
+            }
 
         })
     })
@@ -114,7 +157,21 @@ function dropDown(){
         gsap.to(drop2,{
             height:"50px",
             scrub:true,
-            opacity:"1"
+            opacity:"1",
+            onComplete: function() {
+                // Create a new element for the text
+                const text = document.createElement("div");
+                text.innerHTML = "Serene";
+                text.style.position = "absolute";
+                text.style.top = "50%";
+                text.style.left = "50%";
+                text.style.transform = "translate(-50%, -50%)";
+                text.style.textAlign = "center";
+    
+                // Append the text to the "drop" element
+                drop.innerHTML = ''; // Clear any previous content
+                drop.appendChild(text);
+            }
 
         })
     })
