@@ -167,7 +167,7 @@ position: absolute;
 background-color: palegoldenrod;
 z-index: 9;
 }
-#page2 #elem1 .dets #text2{
+#page2 #elem2 .dets #text2{
 justify-content: center;
 align-items: center;
 display: flex;
@@ -175,10 +175,10 @@ height: 50px;
 border-radius: 55px;
 width: 100%;
 position: absolute;
-background-color: palegoldenrod;
+background-color: palevioletred;
 z-index: 9;
 }
-#page2 #elem1 .dets #text3{
+#page2 #elem3 .dets #text3{
 justify-content: center;
 align-items: center;
 display: flex;
@@ -195,7 +195,7 @@ height: 50px;
 border-radius: 55px;
 width: 80%;
 position: absolute;
-background-color: palevioletred;
+
 z-index: 9;
 }
 
