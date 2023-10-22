@@ -115,7 +115,7 @@ function dropDown(){
             onComplete: function() {
                 // Create a new element for the text
                 const text = document.createElement("text2");
-                text.innerHTML = "Serene";
+                text.innerHTML = "Scenic";
                 text.style.position = "absolute";
                 text.style.top = "50%";
                 text.style.left = "50%";
@@ -161,7 +161,7 @@ function dropDown(){
             onComplete: function() {
                 // Create a new element for the text
                 const text = document.createElement("text3");
-                text.innerHTML = "Serene";
+                text.innerHTML = "Sublime";
                 text.style.position = "absolute";
                 text.style.top = "50%";
                 text.style.left = "50%";
