@@ -47,7 +47,7 @@ function dropDown(){
             opacity:"0.4",
             onComplete: function() {
                 // Create a new element for the text
-                const text = document.createElement("div");
+                const text = document.createElement("text1");
                 text.innerHTML = "yo yo";
                 text.style.position = "absolute";
                 text.style.top = "50%";
@@ -69,7 +69,7 @@ function dropDown(){
             opacity:"1",
             onComplete: function() {
                 // Create a new element for the text
-                const text = document.createElement("#text2");
+                const text = document.createElement("text1");
                 text.innerHTML = "Serene";
                 text.style.position = "absolute";
                 text.style.top = "50%";
@@ -91,7 +91,7 @@ function dropDown(){
             opacity:"0.4",
             onComplete: function() {
                 // Create a new element for the text
-                const text = document.createElement("div");
+                const text = document.createElement("text2");
                 text.innerHTML = "yo yo";
                 text.style.position = "absolute";
                 text.style.top = "50%";
@@ -100,8 +100,8 @@ function dropDown(){
                 text.style.textAlign = "center";
     
                 // Append the text to the "drop" element
-                drop.innerHTML = ''; // Clear any previous content
-                drop.appendChild(text);
+                drop1.innerHTML = ''; // Clear any previous content
+                drop1.appendChild(text);
             
             }
 
@@ -114,7 +114,7 @@ function dropDown(){
             opacity:"1",
             onComplete: function() {
                 // Create a new element for the text
-                const text = document.createElement("div");
+                const text = document.createElement("text2");
                 text.innerHTML = "Serene";
                 text.style.position = "absolute";
                 text.style.top = "50%";
@@ -123,8 +123,8 @@ function dropDown(){
                 text.style.textAlign = "center";
     
                 // Append the text to the "drop" element
-                drop.innerHTML = ''; // Clear any previous content
-                drop.appendChild(text);
+                drop1.innerHTML = ''; // Clear any previous content
+                drop1.appendChild(text);
             }
         
 
@@ -137,7 +137,7 @@ function dropDown(){
             opacity:"0.4",
             onComplete: function() {
                 // Create a new element for the text
-                const text = document.createElement("div");
+                const text = document.createElement("text3");
                 text.innerHTML = "yo yo";
                 text.style.position = "absolute";
                 text.style.top = "50%";
@@ -146,8 +146,8 @@ function dropDown(){
                 text.style.textAlign = "center";
     
                 // Append the text to the "drop" element
-                drop.innerHTML = ''; // Clear any previous content
-                drop.appendChild(text);
+                drop2.innerHTML = ''; // Clear any previous content
+                drop2.appendChild(text);
             
             }
 
@@ -160,7 +160,7 @@ function dropDown(){
             opacity:"1",
             onComplete: function() {
                 // Create a new element for the text
-                const text = document.createElement("div");
+                const text = document.createElement("text3");
                 text.innerHTML = "Serene";
                 text.style.position = "absolute";
                 text.style.top = "50%";
@@ -169,8 +169,8 @@ function dropDown(){
                 text.style.textAlign = "center";
     
                 // Append the text to the "drop" element
-                drop.innerHTML = ''; // Clear any previous content
-                drop.appendChild(text);
+                drop2.innerHTML = ''; // Clear any previous content
+                drop2.appendChild(text);
             }
 
         })
