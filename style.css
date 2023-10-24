@@ -240,6 +240,12 @@ z-index: 9;
 height: 100%;
 
 }
+#page3 #child1{
+    width: 412px;
+    aspect-ratio: auto 412 / 412;
+    height: 412px;
+}
+
 #foot{
     margin-bottom: 10px;
     padding-bottom: 10px;
