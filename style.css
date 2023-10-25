@@ -217,9 +217,7 @@ z-index: 9;
 }
 #page2 #elem3 .dets:hover{
     height: 180px;
-    opacity: 0.4;
-
-} */
+    opacity: 0.4;} */
 #page3{
     min-height: 120vh;
     width: 100%;
